@@ -1,4 +1,4 @@
-200~steps:
+steps:
 # 1. Construir a Imagem Docker (usa o Dockerfile)
 - name: 'gcr.io/cloud-builders/docker'
   args: [
