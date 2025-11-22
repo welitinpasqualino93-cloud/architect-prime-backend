@@ -29,3 +29,4 @@ steps:
   id: Deploy
 options:
   logging: CLOUD_LOGGING_ONLY
+# BUILD FORCE LINE
