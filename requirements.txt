@@ -1,4 +1,4 @@
 Flask
 gunicorn
 sqlalchemy
-pg8000Flask
+pg8000
