@@ -1,0 +1,10 @@
+{
+  "name": "architect-prime-backend",
+  "version": "1.0.0",
+  "description": "Backend for ARCHITECT-PRIME demo",
+  "main": "index.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.17.1"
+  }
+}
