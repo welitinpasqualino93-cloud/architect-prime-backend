@@ -1,4 +1,5 @@
 steps:
+steps:
 # 1. Construir a Imagem Docker (usa o Dockerfile)
 - name: 'gcr.io/cloud-builders/docker'
   args: [
@@ -24,11 +25,3 @@ steps:
       'deploy',
       'architect-prime-backend', # Nome do serviço Cloud Run
       '--image',
-      'us-central1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/architect-prime-backend:$COMMIT_SHA',
-      '--region',
-      'us-central1', # Região do Cloud Run
-      '--allow-unauthenticated', # Permite acesso público para testes
-      '--platform',
-      'managed'
-    ]
-  id: Deploy
